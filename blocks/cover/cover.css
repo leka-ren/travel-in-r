@@ -1,0 +1,17 @@
+@import url(./__image/cover__image.css);
+@import url(./__link/cover__link.css);
+@import url(./__shodow/cover__shodow.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+
+.cover {
+    position: relative;
+    margin: 100px auto 0;
+    max-width: 1184px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.cover:hover .cover__shodow{
+    opacity: .8;
+}

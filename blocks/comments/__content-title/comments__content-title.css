@@ -1,0 +1,26 @@
+.comments__content-title {
+    width: 800px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 65px;
+    text-align: center;
+    font-family: 'Inter', Arial,  sans-serif;
+}
+
+@media screen and (max-width: 875px) {
+    .comments__content-title {
+        width: 80%;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .comments__content-title {
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

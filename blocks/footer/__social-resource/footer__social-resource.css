@@ -1,0 +1,15 @@
+.footer__social-resource {
+    list-style-type: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    font-family: 'Inter', Arial,  sans-serif;
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+
+.footer__social-resource:hover {
+    opacity: .5;
+}

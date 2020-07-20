@@ -1,0 +1,10 @@
+.comments__talk {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (max-width: 500px) {
+    .comments__container {
+        width: 97%;
+    }
+}

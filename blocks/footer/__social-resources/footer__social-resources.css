@@ -1,0 +1,21 @@
+.footer__social-resources {
+    padding-left: 0;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+@media screen and (max-width: 950px) {
+    .footer__social-resources {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 742px) {
+    .footer__social-resources {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+}

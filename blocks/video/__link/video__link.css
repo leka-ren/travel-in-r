@@ -1,0 +1,25 @@
+@import url(./_image-one/video__link_image-one.css);
+@import url(./_image-two/video__link_image-two.css);
+
+.video__link {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    margin-right: 16px;
+    position: relative;
+    z-index: 1;
+    opacity: .8;
+    transition: opacity 1s ease;
+    border-radius: 8px;
+    border: solid #2A2C2F 1px;
+}
+
+.video__link:hover {
+    opacity: .3;
+}
+
+@media screen and (max-width: 760px){
+    .video__link {
+        margin-bottom: 10px;
+    }
+}

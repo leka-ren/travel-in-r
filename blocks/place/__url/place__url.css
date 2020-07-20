@@ -1,0 +1,15 @@
+.place__url {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    font-family: 'Inter', Arial,  sans-serif;
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+
+.place__url:hover {
+    opacity: .5;
+}

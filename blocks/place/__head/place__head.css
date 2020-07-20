@@ -1,0 +1,5 @@
+.place__head {
+    width: 685px;
+    display: flex;
+    align-items: center;
+}

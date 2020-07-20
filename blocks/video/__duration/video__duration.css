@@ -1,0 +1,16 @@
+.video__duration {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    font-family: 'Inter', Arial,  sans-serif;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 950px) {
+    .video__duration {
+        padding-top: 0;
+    }
+}

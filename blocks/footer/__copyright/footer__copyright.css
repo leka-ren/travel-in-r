@@ -1,0 +1,10 @@
+.footer__copyright {
+    max-width: 190px;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Inter', Arial,  sans-serif;
+}

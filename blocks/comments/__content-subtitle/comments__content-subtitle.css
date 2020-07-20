@@ -1,0 +1,21 @@
+.comments__content-subtitle {
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 70px;
+    width: 640px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Inter', Arial,  sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    .comments__content-subtitle {
+        width: 95%;
+        font-size: 16px;
+        line-height: 23px;
+        padding-bottom: 35px;
+    }
+}

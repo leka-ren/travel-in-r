@@ -1,0 +1,15 @@
+@import url(./__card/place__card.css);
+@import url(./__head/place__head.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__paragraphs/place__paragraphs.css);
+@import url(./__title/place__title.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__url/place__url.css);
+@import url(./__website/place__website.css);
+@import url(./__image/place__image.css);
+
+.place {
+    max-width: 984px;
+    margin: 50px auto 0;
+    margin-top: 20px;
+}

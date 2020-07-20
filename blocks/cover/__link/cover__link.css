@@ -1,0 +1,6 @@
+.cover__link {
+    text-decoration-line: none;
+    color: white;
+    max-width: 1184px;
+    transition: opacity 1s ease;
+}

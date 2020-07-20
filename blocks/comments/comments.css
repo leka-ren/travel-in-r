@@ -1,0 +1,13 @@
+@import url(./__author/comments__author.css);
+@import url(./__container/comments__container.css);
+@import url(./__containers/comments__containers.css);
+@import url(./__content-subtitle/comments__content-subtitle.css);
+@import url(./__content-title/comments__content-title.css);
+@import url(./__quote/comments__quote.css);
+@import url(./__image/comments__image.css);
+@import url(./__talk/comments__talk.css);
+
+.comments {
+    width: 90%;
+    margin: 102px auto 30px;
+}

@@ -1,0 +1,19 @@
+.place__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__card {
+        grid-gap: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__card {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,20 @@
+.cover__title {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc((100vw - 320px) / (1184 - 320) * (72 - 32) + 32px); /*проба пера*/
+    line-height: 78px;
+    text-align: center;
+    font-family: 'Inter', Arial,  sans-serif;
+    position: absolute;
+    padding-bottom: 15%;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+@media screen and (max-width: 630px) {
+    .cover__title {
+        line-height: 35px;
+    }
+}
